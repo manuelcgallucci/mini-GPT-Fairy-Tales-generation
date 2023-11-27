@@ -108,3 +108,25 @@ for iter in range(max_iters):
 
 context = torch.zeros((1, 1), device=device, dtype=torch.long)
 print(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
+
+"""
+Step 2700: Train Loss 2.3570, Val Loss 2.3544
+Example output:
+
+wn-h s t ays dackere br preno itherd in whe Ifaren t wheds t Nour?'GOor fadotof thedeaincoure wh, wave loouthitime "" asthan rthe, lllpaiboted fime s het n o den the thesangr wandalouresacoftehe thio afo ave w om feldeanomonifay hikzethe t Butlatanthe.
+" torwitoure
+
+
+
+
+
+
+
+
+Thithasan pCKitha athee."Areas ughe ine atlady d id mchapr an arrve fate orenaputouserado or; sn theve o w
+
+
+stie whe t on,'sat and. t Toscimu asm.
+
+ole athedlyo te "Y6Vere llirousfafererelis leset I," m heanamulye Shan asore,
+"""
