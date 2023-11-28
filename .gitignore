@@ -3,3 +3,6 @@ data-stories
 all_stories.txt
 stories_clean
 output
+
+model.pt
+output.txt
